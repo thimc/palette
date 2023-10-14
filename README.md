@@ -19,8 +19,8 @@ The colors are sorted by their occurrence and printed out to the console with a
 ## TODOs
 
 * add support for multiple files. There are two ways this could be handled.
-First, the files are processed separetly and `palette` will dump the `n * amount
-of files` most dominent colors.  The second alternative to this is to process
+First, the files are processed separately and `palette` will dump the `n * amount
+of files` most dominant colors.  The second alternative to this is to process
 the files in a similar manner but merging their results and ultimately only
 printing `n` amount of colors.
 * find a suck less way to exclude colors that look to similar, using an
