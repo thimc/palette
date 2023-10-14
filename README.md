@@ -3,8 +3,8 @@
 Simple color extractor CLI tool that either reads from standard input, or from a
 file passed as an argument and dumps the colors in hexadecimal values.
 
-The colors are sorted by their occurence in the image and printed out to the
-console with a `#RRGGBB` format.
+The colors are sorted by their occurrence and printed out to the console with a
+`#RRGGBB` format.
 
 ## Example usage
 
