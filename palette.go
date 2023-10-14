@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	amountFlag    = flag.Int("d", 15, "number of colors to be printed")
+	amountFlag = flag.Int("d", 15, "number of colors to be printed")
 )
 
 func usage(err *error) {
@@ -43,7 +43,7 @@ func main() {
 			usage(&err)
 		}
 
-		if fi.Mode() & os.ModeNamedPipe == 0 {
+		if fi.Mode()&os.ModeNamedPipe == 0 {
 			usage(nil)
 		}
 	}
